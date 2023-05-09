@@ -1,0 +1,8 @@
+train: mydata/images/zebra_crossing_train
+val: mydata/images/zebra_crossing_train
+test: mydata/images/zebra_crossing_test
+
+# Classes 斑马线
+nc: 1  # number of classes
+#names: [ "chunzhensuannai", "quechaokafei", "binghongcha250ml" ]
+names: [ "crosswalk" ]

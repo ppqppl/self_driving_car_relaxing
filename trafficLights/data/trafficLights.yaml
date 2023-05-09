@@ -1,0 +1,8 @@
+train: mydata/images/traffic_lights_train
+val: mydata/images/traffic_lights_train
+test: mydata/images/traffic_lights_test
+
+# Classes 交通灯
+nc: 3  # number of classes
+#names: [ "chunzhensuannai", "quechaokafei", "binghongcha250ml" ]
+names: [ 'green', 'red', 'yellow' ]
